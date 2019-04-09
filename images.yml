@@ -12,7 +12,7 @@ spring:
     stream:
       bindings:
         output:
-          destination:  reactive-social-application
+          destination:  reactive-social-application-comments
           group:  comments-service
           content-type: application/json
 
